@@ -184,42 +184,41 @@ nav a:hover {
 
 /* shtuff from about styles /*
 
-/* Welcome Section */
+/* Page Header */
 h1 {
   text-align: center;
+  color: #8e44ad;
+  border-bottom-color: #8e44ad;
+}
+
+/* Section Styling */
+section {
   margin-bottom: 2rem;
 }
 
-/* Contact Information */
-h2 {
-  color: #16a085;
-  border-left: 4px solid #16a085;
-  padding-left: 0.5rem;
+section h2 {
+  color: #8e44ad;
+  border-left: 4px solid #8e44ad;
+  padding-left: 0.8rem;
 }
 
-ul li {
-  background-color: #ecf0f1;
-  padding: 0.8rem;
+section ul li {
+  background-color: #f9f9f9;
+  padding: 0.6rem;
   margin-bottom: 0.5rem;
-  border-radius: 5px;
-  border-left: 3px solid #3498db;
+  border-radius: 4px;
+  border-left: 3px solid #9b59b6;
 }
 
-/* Professional Social Media */
-ul li a {
-  font-weight: 500;
-  display: inline-block;
-  color: #3498db;
+section p {
+  padding: 0.5rem 0;
+  line-height: 1.8;
 }
 
-ul li a:hover {
-  color: #2980b9;
-  text-decoration: underline;
-}
-
-/* Navigation to Projects and About*/
+/* Navigation To Home */
 nav {
   text-align: center;
+  margin-top: 3rem;
 }
 
 nav ul li {
@@ -227,7 +226,6 @@ nav ul li {
   padding: 0;
   border-left: none;
   display: inline-block;
-  margin: 0 1rem;
 }
 
 nav a {
@@ -237,7 +235,6 @@ nav a {
 nav a:hover {
   color: #fff !important;
 }
-
 
 
 
